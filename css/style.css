@@ -1,0 +1,63 @@
+@font-face {
+    font-family: headerFont;
+    src: url(../fonts/Quicksand-Regular.tTf);
+}
+.navbar{
+  background-image: url("../img/chalk-background.jpg");
+  color: white;
+  font-family: headerFont;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+.header-img{
+  width: 100px;
+}
+.item{
+  max-width: 100px;
+}
+li{
+  list-style: none;
+}
+.pointer:hover{
+  cursor: pointer;
+  color: #d1e06b;
+  border-top: 1px white solid;
+}
+.pointer{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.img-container{
+  max-width: 120px;
+  background-image: none;
+}
+.navbar .yellow{
+  color: #d1e06b;
+  cursor: pointer;
+}
+.register{
+  padding-top: 10px;
+}
+.menu-options{
+  background-color:#485460;
+  color: white;
+  padding: 35px 0;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  display: none;
+}
+.menu-list-item{
+  padding: 4px 5px;
+}
+.high{
+  padding: 4px 6px;
+}
+.high:hover{
+  color: black;
+  background-color: #d1e06b;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+}
+.border-right{border-right: 1px white solid;}
